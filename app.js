@@ -25,6 +25,7 @@ function onReady() {
     newLi.appendChild(checkbox);
     // attach the li to the ul
     toDoList.appendChild(newLi);
+    newLi.appendChild(deletebutton);
     //empty the input
     newToDoText.value = '';
   });
