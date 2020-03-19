@@ -10,7 +10,7 @@ function onReady() {
 
       toDos.push({
         title: newToDoText.value,
-        complete: false
+        complete: false,
         id:id
       });
 
