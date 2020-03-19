@@ -34,7 +34,10 @@ function onReady() {
     deleteButton.textContent = "Delete!";
 
     deleteButton.addEventListener('click', event => {
-      alert(toDo.title);
+      toDos = toDos.filter(function(item) {
+        return item.id !==toDo.id;
+      })
+
       renderTheUI();
     })
 
